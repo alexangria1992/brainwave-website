@@ -86,3 +86,7 @@
 .-rotate-360 {
   @apply rotate-[-360deg];
 }
+
+body {
+  height: 5000px;
+}

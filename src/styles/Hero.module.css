@@ -1,0 +1,185 @@
+.heroContainer {
+  position: relative;
+}
+
+.heroWrapper {
+  position: relative;
+  z-index: 1;
+  max-width: 62rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.heroSpan {
+  display: inline-block;
+  position: relative;
+}
+
+.heroUnderline {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 100%;
+}
+
+.heroText {
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem /* 24px */;
+  color: rgb(202 198 221);
+}
+
+.heroImageContainer {
+  position: relative;
+  max-width: 23rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heroImageWrapper {
+  position: relative;
+  z-index: 1;
+  padding: 0.125rem /* 2px */;
+  border-radius: 1rem /* 16px */;
+}
+
+.heroImageRow {
+  position: relative;
+  border-radius: 1rem; /* 16px */
+}
+
+.heroLine {
+  height: 1.4rem;
+  background-color: rgb(67 67 92);
+  border-top-left-radius: 0.9rem /* 14.4px */;
+  border-top-right-radius: 0.9rem /* 14.4px */;
+}
+
+.heroImage {
+  aspect-ratio: 33/40;
+  border-bottom-right-radius: 0.9rem;
+  border-bottom-left-radius: 0.9rem;
+  overflow: hidden;
+}
+
+.heroBackgroundImageWrapper {
+  position: absolute;
+  top: -54%;
+  left: 50%;
+  width: 234%;
+  transform: translateX(-50%);
+}
+
+.heroParallax {
+  display: none;
+}
+
+.heroParallaxIcons {
+  padding: 1.25rem;
+}
+
+.heroGeneratingBox {
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  bottom: 1.25rem;
+}
+
+.heroNavigation {
+  display: none;
+  position: absolute;
+  right: -5.5rem;
+  bottom: 11rem;
+  width: 18rem;
+}
+
+.companyLogo {
+  display: none;
+  position: relative;
+  z-index: 10;
+  margin-top: 20;
+}
+@media screen and (min-width: 768px) {
+  .heroWrapper {
+    margin-bottom: 20px;
+  }
+
+  .heroImageContainer {
+    max-width: 64rem /* 1024px */;
+  }
+
+  .hero-image {
+    aspect-ratio: 688/490;
+  }
+
+  .heroBackgroundImageWrapper {
+    top: -46%;
+    width: 138%;
+  }
+
+  .heroGeneratingBox {
+    left: 50%;
+    right: auto;
+    bottom: 2rem;
+    width: 31rem;
+    transform: translateX(-50px);
+  }
+
+  .companyLogo {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .heroWrapper {
+    margin-bottom: 6rem;
+  }
+
+  .heroText {
+    margin-bottom: 2rem;
+  }
+
+  .heroImage {
+    aspect-ratio: 1024/490;
+  }
+
+  .heroBackgroundImageWrapper {
+    top: -104%;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  .heroWrapper {
+    margin-bottom: 6rem;
+  }
+
+  .heroImage {
+    margin-top: -0.5rem /* -8px */;
+  }
+
+  .heroImageContainer {
+    margin-bottom: 6rem /* 96px */;
+  }
+
+  .heroParallax {
+    display: flex;
+    position: absolute;
+    left: -5.5rem;
+    bottom: 7.5rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    background-color: rgb(71 64 96 / 0.4);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgb(255 255 255 / 0.1);
+    border-radius: 1rem;
+  }
+
+  .heroNavigation {
+    display: flex;
+  }
+}

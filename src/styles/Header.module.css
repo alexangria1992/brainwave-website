@@ -19,9 +19,9 @@
   width: 12rem;
 }
 
-.hideNavbar {
+/* .hideNavbar {
   display: none;
-}
+} */
 
 .navItems {
   position: relative;
@@ -81,7 +81,7 @@
 
 /* MOBILE NAVIGATION */
 .mobileNavBackground {
-  background-color: rgb(14, 12, 21);
+  background-color: rgb(14, 12, 21) !important;
 }
 
 .desktopBackground {
@@ -89,15 +89,15 @@
   backdrop-filter: blur(4px);
 }
 
-.mobileNavbar {
+/* .mobileNavbar {
   display: flex;
   position: fixed;
   top: 5rem;
   left: 0px;
   right: 0px;
   bottom: 0px;
-  background-color: rgb(14, 12, 21);
-}
+  background-color: rgb(14, 12, 21) !important;
+} */
 
 .menuButton {
   margin-left: auto;
@@ -119,13 +119,13 @@
     padding-right: 1.875rem /* 30px */;
   }
 
-  .navbar {
+  /* .navbar {
     position: static;
     display: flex;
     margin-left: auto;
     margin-right: auto;
     background-color: transparent;
-  }
+  } */
 
   .navItems {
     flex-direction: row;
