@@ -7,6 +7,7 @@ import Button from './components/Button';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Benefits from './components/Benefits';
+import Collaboration from './components/Collaboration';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +18,7 @@ function App() {
         <Header />
         <Hero />
         <Benefits />
+        <Collaboration />
       </div>
       <ButtonGradient />
     </>
