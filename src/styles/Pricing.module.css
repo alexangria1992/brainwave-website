@@ -1,0 +1,12 @@
+.pricingContainer {
+  display: none;
+  position: relative;
+  justify-content: center;
+  margin-bottom: 6.5rem;
+}
+
+@media (min-width: 1024px) {
+  .pricingContainer {
+    display: flex;
+  }
+}
