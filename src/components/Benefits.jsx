@@ -24,7 +24,7 @@ const Benefits = () => {
               }}
             >
               <div className={styles.benefitsTitle}>
-                <h5 className='h2 mb-5'>{item.title}</h5>
+                <h5 className='h5 mb-5'>{item.title}</h5>
                 <p className='body-2 mb-6 text-n-3'>{item.text}</p>
                 <div className={styles.benefitsCardImage}>
                   <img src={item.iconUrl} alt='' width={48} height={48} />
