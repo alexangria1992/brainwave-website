@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../styles/Pricing.module.css';
 import Section from './Section';
 import { smallSphere, stars } from '../assets';

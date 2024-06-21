@@ -1,5 +1,3 @@
-import React from 'react';
-import styles from '../styles/Heading.module.css';
 import TagLine from './TagLine';
 
 const Heading = ({ className, title, text, tag }) => {
